@@ -1,4 +1,6 @@
-colorscheme srcery
+" Leader
+let mapleader = " "
+colorscheme meta5
 
 set nu
 
@@ -14,6 +16,13 @@ set incsearch
 set autoindent
 set smartindent
 set backspace=2
+set nobackup
+set nowritebackup
+set noswapfile
+set history=100
+set ruler         " show the cursor position all the time
+set laststatus=2 " Always show status line
+autocmd BufRead,BufNewFile *.html,*.blade.php set iskeyword+=-
 
 filetype plugin on
 syntax enable
@@ -24,8 +33,5 @@ set relativenumber
 set number
 set numberwidth=5
 
-" Get off my lawn
-nnoremap <Left> :echoe "Use h"<CR>
-nnoremap <Right> :echoe "Use l"<CR>
-nnoremap <Up> :echoe "Use k"<CR>
-nnoremap <Down> :echoe "Use j"<CR>
+" Display extra whitespace
+set list listchars=tab:»·,trail:·,nbsp:·
