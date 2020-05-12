@@ -13,3 +13,5 @@ source ~/dotfiles/vim/nerdtree.vim
 source ~/dotfiles/vim/ale.vim
 source ~/dotfiles/vim/otheroptions.vim
 source ~/dotfiles/vim/badwolf.vim
+source ~/dotfiles/vim/ultisnips.vim
+source ~/dotfiles/vim/easy-align.vim
