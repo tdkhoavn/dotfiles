@@ -1,5 +1,5 @@
 " Utility 
-Plug 'preservim/nerdtree', { 'on':  'NERDTreeToggle' }
+Plug 'preservim/nerdtree'
 Plug 'preservim/nerdcommenter'
 Plug 'dense-analysis/ale'
 Plug 'vim-airline/vim-airline'
@@ -16,9 +16,7 @@ Plug 'junegunn/vim-easy-align'
 " Theme / Interface
 Plug 'ryanoasis/vim-devicons'
 Plug 'mhinz/vim-startify'
-Plug 'nanotech/jellybeans.vim'
 Plug 'christophermca/meta5'
-Plug 'sjl/badwolf'
 
 " Snippets
 Plug 'SirVer/ultisnips'

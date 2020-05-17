@@ -34,4 +34,5 @@ set number
 set numberwidth=5
 
 " Display extra whitespace
-set list listchars=tab:»·,trail:·,nbsp:·
+set list listchars=tab:»_,nbsp:.,trail:.,extends:>,precedes:<
+let &showbreak = '^'
